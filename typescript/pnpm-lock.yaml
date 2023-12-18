@@ -4,6 +4,11 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
+dependencies:
+  hono:
+    specifier: ^3
+    version: 3.0.0
+
 devDependencies:
   esbuild:
     specifier: ^0.19.8
@@ -626,6 +631,11 @@ packages:
     resolution: {integrity: sha512-EykJT/Q1KjTWctppgIAgfSO0tKVuZUjhgMr17kqTumMl6Afv3EISleU7qZUzoXDFTAHTDC4NOoG/ZxU3EvlMPQ==}
     engines: {node: '>=8'}
     dev: true
+
+  /hono@3.0.0:
+    resolution: {integrity: sha512-OBWEvcRydCOLdOiazqOmKy8PXciR8uIyUM9HpmXot7UmwNBGOdEJvTrVRIgjV603w+go6cTXBOvFiQClSABT6Q==}
+    engines: {node: '>=16.0.0'}
+    dev: false
 
   /ignore@5.3.0:
     resolution: {integrity: sha512-g7dmpshy+gD7mh88OC9NwSGTKoc3kyLAZQRU1mt53Aw/vnvfXnbC+F/7F7QoYVKbV+KNvJx8wArewKy1vXMtlg==}
